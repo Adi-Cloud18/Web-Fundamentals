@@ -1,0 +1,22 @@
+.nav-button {
+    color: red;
+}
+
+nav a {
+    color: pink;
+}
+
+nav a {
+    color: green;
+}
+
+#logo {
+    height: 200px;
+    height: auto;
+    border: 5px solid black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
