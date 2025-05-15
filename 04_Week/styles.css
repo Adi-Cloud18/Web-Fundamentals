@@ -1,0 +1,57 @@
+body {
+  background-color: #5ca0d7;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.quote-small {
+  color: white;
+  font-size: 14px;
+}
+
+.author {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+}
+
+ol {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 400px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.profile {
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.quote-large {
+  font-size: 24px;
+  color: white;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.footer {
+  font-size: 14px;
+  color: black;
+}
