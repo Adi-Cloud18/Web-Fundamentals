@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.left {
+  position: relative;
+  padding: 20px;
+}
+
+.cherry-img {
+  position: absolute;
+  width: 200px;
+  bottom: 0;
+  left: 10px;
+  z-index: 1;
+}
+
+.tart-sweet {
+  position: relative;
+  z-index: 2;
+  font-size: 4rem;
+  font-weight: bold;
+  color: black;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 100px;
+}
+
+.right {
+  background-color: #b3b3b3;
+  padding: 100px 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.cherries-label {
+  font-size: 2.5rem;
+  color: #991b1b; /* Dark cherry red */
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+.tart,
+.sweet,
+.amp {
+  display: inline-block;
+}
