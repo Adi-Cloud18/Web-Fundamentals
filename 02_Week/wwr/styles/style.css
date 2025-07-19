@@ -269,3 +269,83 @@ footer .social a img {
         margin-top: 25px;
     }
 }
+
+/* Contact page specific styling */
+#contact-main {
+    max-width: 700px;
+    margin: 80px auto 100px;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+#contact-main h1 {
+    font-family: 'Montserrat', 'Edu QLD Hand', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+    color: #6f7364;
+}
+
+#contact-main p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    line-height: 1.5em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+}
+
+#contact-form label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #6f7364;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    padding: 12px 15px;
+    border: 2px solid #d9c2a3;
+    border-radius: 5px;
+    resize: vertical;
+    transition: border-color 0.3s ease;
+}
+
+#contact-form input[type="text"]:focus,
+#contact-form input[type="email"]:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #5e9ca0;
+    box-shadow: 0 0 5px #5e9ca0;
+}
+
+#contact-form button.book {
+    width: fit-content;
+    align-self: center;
+    background-color: #5e9ca0;
+    color: white;
+    font-size: 18px;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button.book:hover {
+    background-color: #3b6d71;
+}
+
+@media screen and (max-width: 600px) {
+    #contact-main {
+        margin: 40px 20px 80px;
+    }
+}
