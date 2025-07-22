@@ -1,39 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Genres - Explore the Sound</title>
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
+<body class="genres-background"></body>
 <body>
   <header>
-    <h1>Explore the Sound</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="genres.html">Genres</a></li>
-        <li><a href="artists.html">Artists</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <div class="brand-identity">
+        <img src="images/Explore the Sound Logo.png" alt="Explore the Sound Logo" class="logo-image">
+        <h1>Explore the Sound</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="artists.html">Artists Hub</a></li>
+          <li><a href="genres.html">Genres List</a></li>
+          <li class="dropdown">
+          </li>
+        </ul>
+        <div class="nav-buttons">
+          <a href="#" class="btn join-btn">Join</a>
+          <a href="#" class="btn login-btn">Login</a>
+        </div>
+      </nav>
+    </div>
   </header>
+
   <main>
-    <h2>Popular Genres</h2>
-    <section class="genre-grid">
-      <div class="genre-card">
-        <img src="#" alt="Pop Genre">
-        <h3>Pop</h3>
+    <div class="blog-header">Blog</div>
+    <div class="page-title-section">
+      <h2>Explore Music Genres</h2>
+      <p>Dive into a vibrant world of music where 21st-century artists and genres come alive. Discover the beats, rhythms, and stories that define today's soundscape.</p>
+    </div>
+
+    <div class="view-all-container">
+      <a href="#" class="btn view-all-btn">View all</a>
+    </div>
+
+    <section class="content-grid">
+      <div class="grid-card">
+        <div class="grid-card-image">
+          <img src="#" alt="Pop Genre Image Placeholder">
+        </div>
+        <div class="grid-card-content">
+          <div class="category">Genre</div>
+          <h3>Pop: The Ever-Evolving Sound</h3>
+          <p>Explore the infectious melodies and global impact of 21st-century pop music, from its chart-topping hits to its diverse subgenres.</p>
+          <div class="author-info">
+            <div class="avatar">M</div>
+            <div class="meta">
+              <span class="name">Music Maven</span>
+              <span class="date-read">15 Jan 2024 • 7 min read</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="genre-card">
-        <img src="#" alt="Rock Genre">
-        <h3>Rock</h3>
+
+      <div class="grid-card">
+        <div class="grid-card-image">
+          <img src="#" alt="Rock Genre Image Placeholder">
+        </div>
+        <div class="grid-card-content">
+          <div class="category">Genre</div>
+          <h3>Rock Revival: Beyond the Classics</h3>
+          <p>From alternative anthems to indie rock, delve into how rock music continues to innovate and capture new audiences.</p>
+          <div class="author-info">
+            <div class="avatar">R</div>
+            <div class="meta">
+              <span class="name">Riff Rocker</span>
+              <span class="date-read">22 Feb 2024 • 6 min read</span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="genre-card">
-        <img src="#" alt="Jazz Genre">
-        <h3>Jazz</h3>
+
+      <div class="grid-card">
+        <div class="grid-card-image">
+          <img src="#" alt="Hip-Hop Genre Image Placeholder">
+        </div>
+        <div class="grid-card-content">
+          <div class="category">Genre</div>
+          <h3>The Global Beat of Hip-Hop</h3>
+          <p>Unpack the cultural phenomenon of hip-hop, tracing its evolution and influence across the globe.</p>
+          <div class="author-info">
+            <div class="avatar">B</div>
+            <div class="meta">
+              <span class="name">Beat Blender</span>
+              <span class="date-read">10 Mar 2024 • 8 min read</span>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+
+      </section>
   </main>
+
   <footer>
     <p>&copy; 2025 Explore the Sound | <a href="site-plan.html">Site Plan</a></p>
   </footer>

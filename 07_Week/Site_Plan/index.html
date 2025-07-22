@@ -1,39 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explore the Sound</title>
-  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-    <h1>Explore the Sound</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="genres.html">Genres</a></li>
-        <li><a href="artists.html">Artists</a></li>
-      </ul>
-    </nav>
+    <div class="header-container">
+      <div class="brand-identity">
+        <img src="images/Explore the Sound Logo.png" alt="Explore the Sound Logo" class="logo-image">
+        <h1>Explore the Sound</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="artists.html">Artists Hub</a></li>
+          <li><a href="genres.html">Genres List</a></li>
+          <li class="dropdown">
+            </li>
+        </ul>
+        <div class="nav-buttons">
+          <a href="#" class="btn join-btn">Join</a>
+          <a href="#" class="btn login-btn">Login</a>
+        </div>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section class="hero">
-      <img src="#" alt="Music Image">
-      <div class="music-text">
-        <h2>Discover Your Sound</h2>
-        <p>Explore genres, artists, and music that moves you.</p>
+    <section class="hero-home">
+      <div class="hero-content">
+        <h2>Explore the Sounds of 21st Century Music</h2>
+        <p>Dive into a vibrant world of music where 21st-century artists and genres come alive. Discover the beats, rhythms, and stories that define today's soundscape.</p>
+        <div class="hero-buttons">
+          <button class="discover-btn">Discover</button>
+          <button class="learn-more-btn">Learn More</button>
+        </div>
+      </div>
+      <div class="hero-image-placeholder">
+        <img src="images/music image.jpeg" alt="Music Visualizer Placeholder">
       </div>
     </section>
-
-    <section class="about">
-      <h2>About This Site</h2>
-      <p>This site is all about helping you explore different styles of music and discover artists that match your vibe.</p>
-    </section>
-  </main>
-
-  <footer>
+</main>
+    <footer>
     <p>&copy; 2025 Explore the Sound | <a href="site-plan.html">Site Plan</a></p>
   </footer>
 </body>
