@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #1F1D36;
+  --secondary-color: #E94560;
+  --accent1-color: #F5C7F7;
+  --accent2-color: #00ADB5;
+
+  --heading-font: "Orbitron", sans-serif;
+  --paragraph-font: "Quicksand", "Nunito", sans-serif;
+
+  --headline-color-on-white: #E94560;
+  --headline-color-on-color: #F5C7F7;
+  --paragraph-color-on-white: #1F1D36;
+  --paragraph-color-on-color: #f5c7cf;
+  --paragraph-background-color: #1f1d36;
+
+  --nav-link-color: #f5c7f7;
+  --nav-background-color: #1f1d36;
+  --nav-hover-link-color: #1F1D36;
+  --nav-hover-background-color: #00AD85;
+}
+
+main {
+  padding: 1rem 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: var(--paragraph-color-on-color);
+  font-family: var(--paragraph-font);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  width: 100%;
+  background-color: var(--nav-background-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  text-decoration: none;
+  font-family: var(--heading-font);
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+nav a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--paragraph-background-color);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-color);
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: var(--paragraph-color-on-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+footer {
+  width: 100%;
+  background-color: var(--nav-background-color);
+  color: var(--nav-link-color);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  font-family: var(--paragraph-font);
+  margin-top: 2rem;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-family: var(--heading-font);
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--accent2-color);
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
